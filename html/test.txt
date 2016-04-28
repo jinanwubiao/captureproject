@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <title>p2p-平安陆金所官网</title> 
+  <meta name="keywords" content="高收益理财产品，p2p"> 
+  <meta name="description" content=""> 
+  <meta name="WT.pn_sku" content=""> 
+  <meta name="WT.page_name" content=""> 
+  <link rel="shortcut icon" href="//static.lufaxcdn.com/config/images/favicon-new.ico"> 
+  <link type="text/css" rel="stylesheet" href="//static.lufaxcdn.com/lufax-public/base/base.08b94875.css"> 
+  <link rel="stylesheet" href="//static.lufaxcdn.com/lufax-components/lufax-components.fbaa1fd3.css"> 
+  <link type="text/css" rel="stylesheet" href="//static.lufaxcdn.com/lufax-public/lufax-public/lufax-public.0754b123.css"> 
+  <link type="text/css" rel="stylesheet" href="//static.lufaxcdn.com/lufax-public/lufax-lib/lufax-lib.4aeed1ff.css"> 
+  <link rel="stylesheet" type="text/css" href="https://static.lufaxcdn.com/list/resource/productDetail/module/recommend.8a1362a1.css"> 
+  <link rel="stylesheet" type="text/css" href="https://static.lufaxcdn.com/list/resource/listing/main/newBigList/bigListV2.8f6f6811.css"> 
+ </head> 
+ <body> 
+  <input type="hidden" id="userId" name="userId" value=""> 
+  <input type="hidden" id="userName" name="userName" value=""> 
+  <input type="hidden" id="isNewUser" name="isNewUser" value=""> 
+  <input type="hidden" id="staticPath" name="staticPath" value="https://static.lufaxcdn.com"> 
+  <input type="hidden" id="listHostUrl" name="listHostUrl" value="https://list.lu.com/list/"> 
+  <input type="hidden" id="siteHostUrl" name="siteHostUrl" value="http://www.lu.com"> 
+  <input type="hidden" id="userHostUrl" name="userHostUrl" value="https://user.lu.com/user"> 
+  <input type="hidden" id="myHostUrl" name="myHostUrl" value="https://my.lu.com/my"> 
+  <input type="hidden" id="tradeHostUrl" name="tradeHostUrl" value="https://trading.lu.com/trading"> 
+  <input type="hidden" id="cashierHostUrl" name="cashierHostUrl" value="https://cashier.lu.com/cashier"> 
+  <input type="hidden" id="insuranceHostUrl" name="insuranceHostUrl" value="https://list.lu.com/insurance/"> 
+  <input type="hidden" id="domain" name="domain" value="lu.com"> 
+  <div class="lufax-header" id="lufax-header"> 
+   <div class="top-wrap"> 
+    <div class="top-body clearfix"> 
+     <ul class="top-login-status clearfix top-login hidden" id="top-login"> 
+      <li>您好，<a href="//my.lu.com/my/account" class="user-name"></a> <span class="msg-tips"> <a class="my-account my-msg" id="my-account" href="//my.lu.com/my/user-msg" target="_blank"> <i class="icon-msg"></i> <span id="header-my-account" data-sk="头部-消息">消息</span> <span id="header-my-msg-panel" class="msg-wrap hidden"> <span id="msg-count"></span> </span> </a> <p class="kyc-invest-tips hidden"> <i class="tips-arrow"></i> 您有投资项目已完成电话确认。<a href="//my.lu.com/my/user-msg" target="_blank" data-sk="InvestContinue">立即查看 </a> <i class="tips-close"></i> </p> </span> <span class="safe-logout-wrap">| <a href="//user.lu.com/user/logout" id="safe-logout">安全退出</a></span> </li> 
+     </ul> 
+     <ul class="top-login-status clearfix top-cookie hidden" id="top-cookie"> 
+      <li id="header-cookie-home-icon" class="home-icon"><a href="//www.lu.com/"></a></li> 
+      <li class="top-cookie">您好，<a id="header-cookie-name" href="//user.lu.com/user/login" class="cookie-name" data-sk="头部-用户名"></a> <a id="header-cookie-login" href="//user.lu.com/user/login?returnPostURL=http%3A%2F%2Fwww.lu.com%2F" data-sk="头部-登录"> 登录 </a><span class="seperator">|</span><a id="header-cookie-register" href="//user.lu.com/user/register" data-sk="头部-注册">注册</a></li> 
+     </ul> 
+     <ul class="top-login-status clearfix top-noLog hidden" id="top-noLog"> 
+      <li class="top-noLog">您好，欢迎来到陆金所！ <a id="header-nolog-login" href="//user.lu.com/user/login?returnPostURL=http%3A%2F%2Fwww.lu.com%2F" data-sk="头部-登录">登录</a><span class="seperator">|</span><a id="header-nolog-register" href="//user.lu.com/user/register" data-sk="头部-注册">注册</a></li> 
+     </ul> 
+     <ul class="media-link clearfix"> 
+      <li><a id="header-lumi" href="//lumi.lu.com/lumi/index" target="_blank" data-sk="头部-会员俱乐部">会员俱乐部</a></li> 
+      <li class="lumi-link"><a id="header-vip" href="//vip.lu.com/vip" target="_blank" data-sk="头部-VIP非凡会">VIP非凡会</a></li> 
+      <li><a id="header-twhkmo" href="//www.lu.com/activity/twhkmo-minisite/index.html" target="_blank" data-sk="头部-港澳台">港澳台客户</a></li> 
+      <li><a id="header-help-center" href="//www.lu.com/help/" target="_blank" data-sk="头部-帮助中心">帮助中心</a></li> 
+      <li><a href="http://www.10100000.com/daikuan/lfx-index.html?utm_source=LFXHK011-LUFAX-pc&amp;utm_medium=CPS&amp;utm_campaign=FILTER2.1&amp;WT.mc_id=CXX-WXDLUFAXHK-011-pc-LFX-3in1&amp;" target="_blank" data-sk="头部-借款">借款</a></li> 
+      <li><a href="http://www.zhong.com" target="_blank" data-sk="头部-众筹">众筹</a></li> 
+      <li><a href="https://qhzx.pingan.com.cn/cust/rmgs/jigou/jg-index.html" target="_blank" data-sk="头部-p2p合作">p2p合作</a></li> 
+      <li id="header-mobile-panel" class="mobile-link"><a id="header-mobile" href="//www.lu.com/activity/app201307/index.html" target="_blank" data-sk="头部-手机版"><i class="icon-mobile"></i>手机版</a></li> 
+      <li id="header-weibo-panel" class="weibo-link"><a id="header-weibo" href="http://e.weibo.com/lufax" target="_blank"><i id="header-weibo-icon" class="icon-weibo">&nbsp;</i></a></li> 
+      <li id="header-weixin-panel" class="weixin"> <a id="header-weixin" href="javascript:void(0);"><i id="header-weixin-icon" class="icon-weixin">&nbsp;</i></a> <p><b></b><span class="lufax-code weixin-code"></span></p> </li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="head-body-wrap"> 
+    <div class="head-body clearfix"> 
+     <div id="header-body-logo-panel" class="logo"> 
+      <a href="//www.lu.com/"> <img src="https://static.lufaxcdn.com/wcm-images/6omaQwABky9EOhYoeTv7hg.png" alt=""> </a> 
+     </div> 
+     <div id="header-body-slogan-panel" class="slogan"> 
+      <img src="https://static.lufaxcdn.com/wcm-images/Pu40SMbLYuUshPdIniOwsQ.png" alt=""> 
+     </div> 
+     <div id="header-body-my-account-panel" class="my-account-menu"> 
+      <ul> 
+       <li class="my-account"><a href="//my.lu.com/my/account" target="_blank" data-sk="头部-我的账户"><span>我的账户</span><span class="icon-arrow transition"></span></a></li> 
+       <li><a href="//my.lu.com/my/investment-all-v2" target="_blank" data-sk="头部-我的投资"><span>我的投资</span></a></li> 
+       <li><a href="//my.lu.com/my/transaction-history" target="_blank" data-sk="头部-资金记录"><span>资金记录</span></a></li> 
+       <li><a href="//my.lu.com/my/bank-account" target="_blank" data-sk="头部-银行卡管理"><span>银行卡管理</span></a></li> 
+       <li><a href="//my.lu.com/my/my-lufax-coin" target="_blank" data-sk="头部-我的投资券"><span>我的投资券</span></a></li> 
+       <li><a href="//my.lu.com/my/user-info" target="_blank" data-sk="头部-账户安全"><span>账户安全</span></a></li> 
+       <li><a href="//lumi.lu.com/lumi/my-lumi-world" target="_blank" data-sk="头部-我的商品"><span>我的商品</span></a></li> 
+       <li><a href="//affiliate.lu.com/invite-friends" target="_blank" data-sk="头部-邀请好友"><span>邀请好友</span></a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script type="text/template" id="lumi-link-logo-tpl">
+    <div class="lumi-link-logo">
+        <span class="head-logo-wlt"><img src="//static.lufaxcdn.com/lufax-components/img/head-logo-wlt.cdcd6208.png" alt="" /></span>
+        <p class="lumi-logo-tips"><i></i>本站由万里通提供技术支持</p>
+    </div>
+</script> 
+  <div id="lufax-navigator" class="lufax-navigator"> 
+   <ul id="lufax-navigator-main" class="main-nav clearfix"> 
+    <li id="lufax-navigator-main-home" class="nav-home"><a href="//www.lu.com" data-sk="top_navigation_home">首页</a></li> 
+    <li id="lufax-navigator-main-huoqi" class="nav-huoqi"> <a href="//list.lu.com/list/huoqi" data-sk="top_navigation_current">活期<span>(<em class="nav-huoqi-all-page"></em>)</span> </a> </li> 
+    <li id="lufax-navigator-main-dingqi" class="nav-dingqi"> <a href="//list.lu.com/list/dingqi" data-sk="top_navigation_regular">定期 <span>(<em class="nav-dingqi-all-page"></em>)</span> </a> </li> 
+    <li id="lufax-navigator-main-p2p" class="nav-p2p"> <a href="//list.lu.com/list/p2p" data-sk="top_navigation_P2P">P2P<span>(<em class="nav-p2p-all-page"></em>)</span></a> 
+     <!--<i class="insurance-icon"></i>--> </li> 
+    <li id="lufax-navigator-main-fund" class="nav-fund"> <a href="//e.lufunds.com/jijin/list" data-sk="top_navigation_jijin" target="_blank">基金 <span>(<em class="nav-fundChannel-all-page"></em>)</span></a> </li> 
+    <li id="lufax-navigator-main-gaoduanlicai" class="nav-gaoduanlicai has-sub-nav" sub-menu="sub-nav-High"> <a href="//trust.lu.com/trust/index" data-sk="top_navigation_gaoduan">高端理财 <span>(<em class="nav-gaoduanlicai-all-page"></em>)</span> <b class="nav-down-arrow"></b> </a> </li> 
+    <li id="lufax-navigator-main-baoxian" class="nav-insurances"> <a href="//list.lu.com/insurance/baoxian/index" data-sk="top_navigation_insurance" class="nav-special">保险 <span>(<em class="nav-baoxian-all-page"></em>)</span> </a> </li> 
+    <li id="lufax-navigator-main-xinshou" class="nav-xinshou"> <a href="//list.lu.com/list/xinshou" data-sk="top_navigation_xinke">新手专区 <span>(<em class="nav-xinke-all-page"></em>)</span></a> </li> 
+    <li id="lufax-navigator-main-transfer" class="nav-transfer has-sub-nav" sub-menu="sub-nav-transfer"> <a href="//list.lu.com/list/transfer" data-sk="top_navigation_transfer">会员交易区<span>(<em class="nav-transfer-all-page"></em>)</span> <b class="nav-down-arrow"></b> </a> </li> 
+   </ul> 
+   <div class="lufax-sub-nav sub-nav-High hidden" parent-menu="gaoduanlicai"> 
+    <ul class="sub-nav-list clearfix"> 
+     <li class="nav-xintuozhiying"> <a href="//trust.lu.com/trust/index" data-sk="top_navigation_xintuo" class="sub-nav-first">信托直营<span>(<em class="nav-trust-all-page"></em>)</span> <b class="nav-up-arrow"></b> </a> </li> 
+     <li class="nav-simujijin"><a href="//fund.lu.com/pe/index" data-sk="top_navigation_simu">私募基金<span>(<em class="nav-transfer-pe-all-page"></em>)</span></a></li> 
+    </ul> 
+   </div> 
+   <div class="lufax-sub-nav sub-nav-transfer hidden" parent-menu="transfer"> 
+    <ul class="sub-nav-list clearfix"> 
+     <li class="nav-r030cur"> <a href="//list.lu.com/list/r030" data-sk="top_navigation_r030_transfer" class="sub-nav-first">稳盈-e享计划<span>(<em class="nav-transfer-r030-all-page"></em>)</span> <b class="nav-up-arrow"></b> </a> </li> 
+     <li class="nav-p2pTransfer"> <a href="//list.lu.com/list/transfer-p2p" data-sk="top_navigation_p2p_transfer">P2P转让<span>(<em class="nav-transfer-p2p-all-page"></em>)</span> </a> </li> 
+     <li class="nav-dingqiTransfer"><a href="//list.lu.com/list/transfer-dingqi" data-sk="top_navigation_regular_transfer">定期转让<span>(<em class="nav-transfer-dingqi-all-page"></em>)</span></a></li> 
+    </ul> 
+   </div> 
+   <div class="lufax-sub-nav sub-nav-insurances hidden" parent-menu="insurances"> 
+    <ul class="sub-nav-list clearfix"> 
+     <li class="nav-baoxian"> <a href="//list.lu.com/insurance/baoxian/index" data-sk="top_navigation_insurance-security" class="sub-nav-first">保障型保险<span>(<em class="nav-baoxian-all-page"></em>)</span> <b class="nav-up-arrow"></b> </a> </li> 
+     <li class="nav-insurance"> <a href="//list.lu.com/insurance/index" data-sk="top_navigation_insurance-finance">理财型保险<span>(<em class="nav-insurance-all-page"></em>)</span></a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <form method="get" id="filterForm"> 
+   <input id="minInvestAmount" name="minMoney" value="" type="hidden"> 
+   <input id="maxInvestAmount" name="maxMoney" value="" type="hidden"> 
+   <input id="minInvestPeriod" name="minDays" value="" type="hidden"> 
+   <input id="maxInvestPeriod" name="maxDays" value="" type="hidden"> 
+   <input id="minInvestRate" name="minRate" value="" type="hidden"> 
+   <input id="maxInvestRate" name="maxRate" value="" type="hidden"> 
+   <input id="collectionMode" name="mode" value="" type="hidden"> 
+   <input id="tradeMode" name="tradingMode" value="" type="hidden"> 
+   <input id="isCuxiao" name="isCx" value="" type="hidden"> 
+   <input id="currentPage" name="currentPage" value="1" type="hidden"> 
+   <input id="orderCondition" name="orderCondition" value="" type="hidden"> 
+   <input id="isShared" name="isShared" value="" type="hidden"> 
+   <input id="canRealized" name="canRealized" value="" type="hidden"> 
+   <input id="productCategoryEnum" name="productCategoryEnum" value="" type="hidden"> 
+  </form> 
+  <input type="hidden" id="current-page" value="p2p"> 
+  <div class="main-wide-wrap"> 
+   <div class="clearfix two-col-wrap"> 
+    <div class="main-body"> 
+     <div class="filter-wrap"> 
+      <dl class="clearfix invest-filter"> 
+       <dt>
+        投资期限：
+       </dt> 
+       <dd class="clearfix"> 
+        <span class="all"><a class="cur" href="javascript:void(0);" data-identity="period" data-val="" data-sk="qixianbuxian">不限</a></span> 
+        <ul class="selection clearfix"> 
+         <li><a class="$period7" href="javascript:void(0);" data-identity="period" data-val="0,180" data-sk="qixian0&amp;6">6个月以下</a></li> 
+         <li><a class="$period8" href="javascript:void(0);" data-identity="period" data-val="180,360" data-sk="qixian6&amp;12">6～12个月</a></li> 
+         <li><a class="$period6" href="javascript:void(0);" data-identity="period" data-val="360" data-sk="qixian12">12个月以上</a></li> 
+        </ul> 
+        <div class="invest-range-list-wrap"> 
+         <ul class="clearfix invest-range-list"> 
+          <li> <span class="input-wrap"> <input type="text" class="input range-from" maxlength="4" value=""> </span> </li> 
+          <li class="unit">个月</li> 
+          <li class="dash">-</li> 
+          <li> <span class="input-wrap"> <input type="text" class="input range-to" maxlength="4" value=""> </span> </li> 
+          <li class="unit">个月</li> 
+         </ul> 
+         <div class="invest-range"> 
+          <a href="javascript:void(0);" class="ld-btn ld-btn-primary ld-btn-blue btn-range" data-identity="mouth-period">确定</a> 
+         </div> 
+        </div> 
+       </dd> 
+      </dl> 
+      <dl class="clearfix invest-filter"> 
+       <dt>
+        起投金额：
+       </dt> 
+       <dd class="clearfix"> 
+        <span class="all"><a href="javascript:void(0);" class="cur" data-identity="amount" data-val="" data-sk="qitoubuxian">不限</a></span> 
+        <ul class="selection clearfix"> 
+         <li><a class="" href="javascript:void(0);" data-identity="amount" data-val="0,10000" data-sk="qitou0&amp;1">1万元以下</a></li> 
+         <li><a class="" href="javascript:void(0);" data-identity="amount" data-val="10000,50000" data-sk="qitou1&amp;5">1万-5万元</a></li> 
+         <li><a class="" href="javascript:void(0);" data-identity="amount" data-val="50000,100000" data-sk="qitou5&amp;10">5万-10万元</a></li> 
+         <li><a class="" href="javascript:void(0);" data-identity="amount" data-val="100000" data-sk="qitou10">10万元以上</a></li> 
+        </ul> 
+        <div class="invest-range-list-wrap"> 
+         <ul class="clearfix invest-range-list"> 
+          <li> <span class="input-wrap"> <input type="text" class="input range-from" maxlength="4" value=""> </span> </li> 
+          <li class="unit">万元</li> 
+          <li class="dash">-</li> 
+          <li> <span class="input-wrap"> <input type="text" class="input range-to" maxlength="4" value=""> </span> </li> 
+          <li class="unit">万元</li> 
+         </ul> 
+         <div class="invest-range"> 
+          <a href="javascript:void(0);" class="ld-btn ld-btn-primary ld-btn-blue btn-range" data-identity="amount">确定</a> 
+         </div> 
+        </div> 
+       </dd> 
+      </dl> 
+      <dl class="clearfix invest-filter"> 
+       <dt>
+        收益方式：
+       </dt> 
+       <dd class="clearfix"> 
+        <span class="all"><a class="cur" href="javascript:void(0);" data-identity="collectionMode" data-val="" data-sk="shouyibuxian">不限</a></span> 
+        <ul class="selection clearfix"> 
+         <li><a class="" href="javascript:void(0);" data-identity="collectionMode" data-val="MONTHLY_AVERAGE_CAPITAL_PLUS_INTEREST" data-sk="shouyidenge">每月等额本息</a></li> 
+         <li><a class="" href="javascript:void(0);" data-identity="collectionMode" data-val="ONE_TIME_CAPITAL_PLUS_INTEREST" data-sk="shouyiyici">一次性还本付息</a></li> 
+         <li><a class="" href="javascript:void(0);" data-identity="collectionMode" data-val="MONTHLY_PAY_INTEREST" data-sk="shouyidaoqi">每月还息到期还本</a></li> 
+        </ul> 
+       </dd> 
+      </dl> 
+      <dl class="clearfix last-col invest-filter"> 
+       <dt>
+        项目名称：
+       </dt> 
+       <dd class="clearfix"> 
+        <span class="all"><a class="cur" href="javascript:void(0);" data-identity="product" data-val="" data-sk="xiangmubuxian">不限</a></span> 
+        <ul class="selection clearfix"> 
+         <li><a class="" href="javascript:void(0);" data-identity="product" data-val="ANYI" data-sk="xiangmuae">稳盈-安e</a></li> 
+         <li><a class="" href="javascript:void(0);" data-identity="product" data-val="CGI" data-sk="xiangmuaej">稳盈-安e+</a></li> 
+         <li><a class="" href="javascript:void(0);" data-identity="product" data-val="BIANXIANTONG" data-sk="xiangmubxt">稳盈-变现通</a></li> 
+         <li><a class="" href="https://list.lu.com/list/dianjin-area" target="_blank" data-sk="xiangmudj">点金计划</a></li> 
+         <li><a class="" href="javascript:void(0);" data-identity="product" data-val="SHULOUE" data-sk="xiangmudashu">大数金融</a></li> 
+        </ul> 
+       </dd> 
+      </dl> 
+     </div> 
+     <div class="sort-gather clearfix"> 
+      <dl class="clearfix"> 
+       <dt>
+        排序：
+       </dt> 
+       <dd class="clearfix"> 
+        <ul class="selection clearfix"> 
+         <li><a class="cur" href="javascript:void(0);" data-identity="order" data-sk="moren" data-val="">默认排序</a></li> 
+         <li> <a href="javascript:void(0);" class="sort-el " data-identity="order" data-sk="touzijine" data-val="INVEST_AMOUNT_ASC">投资金额<b class="icon-arrow-up sprite-list"></b><b class="icon-arrow-down sprite-list"></b></a> </li> 
+         <li> <a href="javascript:void(0);" class="sort-el " data-identity="order" data-sk="touziqixian" data-val="INVEST_PERIOD_ASC">投资期限<b class="icon-arrow-up sprite-list"></b><b class="icon-arrow-down sprite-list"></b></a> </li> 
+         <li> <a href="javascript:void(0);" class="sort-el " data-identity="order" data-sk="shouyilv" data-val="INVEST_RATE_ASC">收益率/利率<b class="icon-arrow-up sprite-list"></b><b class="icon-arrow-down sprite-list"></b></a> </li> 
+        </ul> 
+       </dd> 
+      </dl> 
+      <div class="is-hui clearfix" data-sk="all-tehui"> 
+       <input type="checkbox" name="hui" id="hui"> 
+       <label for="hui">有促销</label> 
+      </div> 
+     </div> 
+     <ul class="main-list" data-sk="p2p-list"> 
+      <li class="product-list is-cluster clearfix         " "=""> 
+       <dl class="product-info"> 
+        <dt class="product-name"> 
+         <a href="/list/anyiBMergeProductDetail?productId=30083070" target="_blank" title="稳盈-安e 1万元起">稳盈-安e 1万元起</a> 
+         <input type="hidden" value="901"> 
+        </dt> 
+        <dd> 
+         <ul class="clearfix"> 
+          <li class="interest-rate"> <span class=" product-property-name"> 预期年化利率 </span> <p class="num-style">8.40%</p> </li> 
+          <li class="invest-period"> <span class="product-property-name"> 投资期限 </span> <p> 36个月 </p> </li> 
+          <li class="collection-mode"> <span class="product-property-name">收益方式</span> <p class="collection-method"> 每月等额本息 </p> </li> 
+         </ul> 
+        </dd> 
+       </dl> 
+       <div class="product-amount"> 
+        <span class="product-property-name">投资金额</span> 
+        <p> <em class="num-style">10,000.00</em>元 起 </p> 
+       </div> 
+       <div class="product-status product-status-raise"> 
+        <a href="/list/anyiBMergeProductDetail?productId=30083070" target="_blank" class="ld-btn ld-btn-primary">投资</a> 
+        <p class="product-count"><a class="display-indicator is-folded" data-sk="lb-anyib-zhankai"><span class="indicator-text">展开</span> <span class="icon-arrow-big"></span> </a>包含项目数: <em>15</em> </p> 
+       </div> 
+       <div class="aggregation-container clearfix" data-id="1" data-product-id="30083070" data-sk="lb-anyib-zhankailb" data-category="901" data-isfornewuser=""> 
+        <div class="loading-area" id="loadingArea1"></div> 
+        <div class="productAnyiB-list"></div> 
+       </div> </li> 
+      <li class="product-list is-cluster clearfix         " "=""> 
+       <dl class="product-info"> 
+        <dt class="product-name"> 
+         <a href="/list/mergeProductDetail?productId=30103114&amp;productCategoryName=bianxiantong" target="_blank" title="稳盈-变现通 1万元起">稳盈-变现通 1万元起</a> 
+         <input type="hidden" value="701"> 
+        </dt> 
+        <dd> 
+         <ul class="clearfix"> 
+          <li class="interest-rate"> <span class=" product-property-name"> 预期年化利率 </span> <p class="num-style">4.70%</p> </li> 
+          <li class="invest-period"> <span class="product-property-name"> 投资期限 </span> <p> 35天 </p> </li> 
+          <li class="collection-mode"> <span class="product-property-name">收益方式</span> <p class="collection-method"> 一次性还本付息 </p> </li> 
+         </ul> 
+        </dd> 
+       </dl> 
+       <div class="product-amount"> 
+        <span class="product-property-name">投资金额</span> 
+        <p> <em class="num-style">10,000.00</em>元 </p> 
+       </div> 
+       <div class="product-status"> 
+        <a href="/list/mergeProductDetail?productId=30103114&amp;productCategoryName=bianxiantong" target="_blank" class="ld-btn ld-btn-primary">投资</a> 
+        <p class="product-count"><a class="display-indicator is-folded" data-sk="lb-bxt-zhankai"><span class="indicator-text">展开</span> <span class="icon-arrow-big"></span> </a>包含项目数: <em>7</em> </p> 
+       </div> 
+       <div class="aggregation-container clearfix" data-id="2" data-product-id="30103114" data-sk="lb-bxt-zhankailb" data-category="701" data-isfornewuser=""> 
+        <div class="loading-area" id="loadingArea2"></div> 
+        <div class="productAnyiB-list"></div> 
+       </div> </li> 
+      <li class="product-list is-cluster clearfix         " "=""> 
+       <dl class="product-info"> 
+        <dt class="product-name"> 
+         <a href="/list/mergeProductDetail?productId=30103566&amp;productCategoryName=bianxiantong" target="_blank" title="稳盈-变现通 5万元起">稳盈-变现通 5万元起</a> 
+         <input type="hidden" value="701"> 
+        </dt> 
+        <dd> 
+         <ul class="clearfix"> 
+          <li class="interest-rate"> <span class=" product-property-name"> 预期年化利率 </span> <p class="num-style">4.70%</p> </li> 
+          <li class="invest-period"> <span class="product-property-name"> 投资期限 </span> <p> 14天 </p> </li> 
+          <li class="collection-mode"> <span class="product-property-name">收益方式</span> <p class="collection-method"> 一次性还本付息 </p> </li> 
+         </ul> 
+        </dd> 
+       </dl> 
+       <div class="product-amount"> 
+        <span class="product-property-name">投资金额</span> 
+        <p> <em class="num-style">50,000.00</em>元 </p> 
+       </div> 
+       <div class="product-status"> 
+        <a href="/list/mergeProductDetail?productId=30103566&amp;productCategoryName=bianxiantong" target="_blank" class="ld-btn ld-btn-primary">投资</a> 
+        <p class="product-count"><a class="display-indicator is-folded" data-sk="lb-bxt-zhankai"><span class="indicator-text">展开</span> <span class="icon-arrow-big"></span> </a>包含项目数: <em>3</em> </p> 
+       </div> 
+       <div class="aggregation-container clearfix" data-id="3" data-product-id="30103566" data-sk="lb-bxt-zhankailb" data-category="701" data-isfornewuser=""> 
+        <div class="loading-area" id="loadingArea3"></div> 
+        <div class="productAnyiB-list"></div> 
+       </div> </li> 
+      <li class="product-list is-cluster clearfix         " "=""> 
+       <dl class="product-info"> 
+        <dt class="product-name"> 
+         <a href="/list/mergeProductDetail?productId=30103284&amp;productCategoryName=bianxiantong" target="_blank" title="稳盈-变现通 1万元起">稳盈-变现通 1万元起</a> 
+         <input type="hidden" value="701"> 
+        </dt> 
+        <dd> 
+         <ul class="clearfix"> 
+          <li class="interest-rate"> <span class=" product-property-name"> 预期年化利率 </span> <p class="num-style">4.60%</p> </li> 
+          <li class="invest-period"> <span class="product-property-name"> 投资期限 </span> <p> 14天 </p> </li> 
+          <li class="collection-mode"> <span class="product-property-name">收益方式</span> <p class="collection-method"> 一次性还本付息 </p> </li> 
+         </ul> 
+        </dd> 
+       </dl> 
+       <div class="product-amount"> 
+        <span class="product-property-name">投资金额</span> 
+        <p> <em class="num-style">10,000.00</em>元 </p> 
+       </div> 
+       <div class="product-status"> 
+        <a href="/list/mergeProductDetail?productId=30103284&amp;productCategoryName=bianxiantong" target="_blank" class="ld-btn ld-btn-primary">投资</a> 
+        <p class="product-count"><a class="display-indicator is-folded" data-sk="lb-bxt-zhankai"><span class="indicator-text">展开</span> <span class="icon-arrow-big"></span> </a>包含项目数: <em>7</em> </p> 
+       </div> 
+       <div class="aggregation-container clearfix" data-id="4" data-product-id="30103284" data-sk="lb-bxt-zhankailb" data-category="701" data-isfornewuser=""> 
+        <div class="loading-area" id="loadingArea4"></div> 
+        <div class="productAnyiB-list"></div> 
+       </div> </li> 
+      <li class="product-list is-cluster clearfix         " "=""> 
+       <dl class="product-info"> 
+        <dt class="product-name"> 
+         <a href="/list/mergeProductDetail?productId=30103115&amp;productCategoryName=bianxiantong" target="_blank" title="稳盈-变现通 1万元起">稳盈-变现通 1万元起</a> 
+         <input type="hidden" value="701"> 
+        </dt> 
+        <dd> 
+         <ul class="clearfix"> 
+          <li class="interest-rate"> <span class=" product-property-name"> 预期年化利率 </span> <p class="num-style">4.50%</p> </li> 
+          <li class="invest-period"> <span class="product-property-name"> 投资期限 </span> <p> 7天 </p> </li> 
+          <li class="collection-mode"> <span class="product-property-name">收益方式</span> <p class="collection-method"> 一次性还本付息 </p> </li> 
+         </ul> 
+        </dd> 
+       </dl> 
+       <div class="product-amount"> 
+        <span class="product-property-name">投资金额</span> 
+        <p> <em class="num-style">10,000.00</em>元 </p> 
+       </div> 
+       <div class="product-status"> 
+        <a href="/list/mergeProductDetail?productId=30103115&amp;productCategoryName=bianxiantong" target="_blank" class="ld-btn ld-btn-primary">投资</a> 
+        <p class="product-count"><a class="display-indicator is-folded" data-sk="lb-bxt-zhankai"><span class="indicator-text">展开</span> <span class="icon-arrow-big"></span> </a>包含项目数: <em>29</em> </p> 
+       </div> 
+       <div class="aggregation-container clearfix" data-id="5" data-product-id="30103115" data-sk="lb-bxt-zhankailb" data-category="701" data-isfornewuser=""> 
+        <div class="loading-area" id="loadingArea5"></div> 
+        <div class="productAnyiB-list"></div> 
+       </div> </li> 
+      <li class="product-list  clearfix         " "=""> 
+       <dl class="product-info"> 
+        <dt class="product-name"> 
+         <a href="/list/productDetail?productId=30103540" target="_blank" title="稳盈-变现通 16042801688">稳盈-变现通 16042801688</a> 
+         <input type="hidden" value="701"> 
+        </dt> 
+        <dd> 
+         <ul class="clearfix"> 
+          <li class="interest-rate"> <span class=" product-property-name"> 预期年化利率 </span> <p class="num-style">4.40%</p> </li> 
+          <li class="invest-period"> <span class="product-property-name"> 投资期限 </span> <p> 3天 </p> </li> 
+          <li class="collection-mode"> <span class="product-property-name">收益方式</span> <p class="collection-method"> 一次性还本付息 </p> </li> 
+         </ul> 
+        </dd> 
+       </dl> 
+       <div class="product-amount"> 
+        <span class="product-property-name">投资金额</span> 
+        <p> <em class="num-style">50,000.00</em>元 </p> 
+       </div> 
+       <div class="product-status"> 
+        <a href="/list/productDetail?productId=30103540" target="_blank" class="ld-btn ld-btn-primary">投资</a> 
+       </div> </li> 
+      <li class="product-list is-cluster clearfix         " "=""> 
+       <dl class="product-info"> 
+        <dt class="product-name"> 
+         <a href="/list/mergeProductDetail?productId=30103053&amp;productCategoryName=bianxiantong" target="_blank" title="稳盈-变现通 1万元起">稳盈-变现通 1万元起</a> 
+         <input type="hidden" value="701"> 
+        </dt> 
+        <dd> 
+         <ul class="clearfix"> 
+          <li class="interest-rate"> <span class=" product-property-name"> 预期年化利率 </span> <p class="num-style">4.30%</p> </li> 
+          <li class="invest-period"> <span class="product-property-name"> 投资期限 </span> <p> 3天 </p> </li> 
+          <li class="collection-mode"> <span class="product-property-name">收益方式</span> <p class="collection-method"> 一次性还本付息 </p> </li> 
+         </ul> 
+        </dd> 
+       </dl> 
+       <div class="product-amount"> 
+        <span class="product-property-name">投资金额</span> 
+        <p> <em class="num-style">10,000.00</em>元 </p> 
+       </div> 
+       <div class="product-status"> 
+        <a href="/list/mergeProductDetail?productId=30103053&amp;productCategoryName=bianxiantong" target="_blank" class="ld-btn ld-btn-primary">投资</a> 
+        <p class="product-count"><a class="display-indicator is-folded" data-sk="lb-bxt-zhankai"><span class="indicator-text">展开</span> <span class="icon-arrow-big"></span> </a>包含项目数: <em>219</em> </p> 
+       </div> 
+       <div class="aggregation-container clearfix" data-id="7" data-product-id="30103053" data-sk="lb-bxt-zhankailb" data-category="701" data-isfornewuser=""> 
+        <div class="loading-area" id="loadingArea7"></div> 
+        <div class="productAnyiB-list"></div> 
+       </div> </li> 
+      <li class="product-list  clearfix     product-list-done     " "=""> 
+       <dl class="product-info"> 
+        <dt class="product-name"> 
+         <a href="/list/productDetail?productId=30062060" target="_blank" title="稳盈-安e 16042510891">稳盈-安e 16042510891</a> 
+         <input type="hidden" value="901"> 
+        </dt> 
+        <dd> 
+         <ul class="clearfix"> 
+          <li class="interest-rate"> <span class=" product-property-name"> 预期年化利率 </span> <p class="num-style">6.50%</p> </li> 
+          <li class="invest-period"> <span class="product-property-name"> 投资期限 </span> <p> 1个月 </p> </li> 
+          <li class="collection-mode"> <span class="product-property-name">收益方式</span> <p class="collection-method"> 每月等额本息 </p> </li> 
+         </ul> 
+        </dd> 
+       </dl> 
+       <div class="product-amount"> 
+        <span class="product-property-name">投资金额</span> 
+        <p> <em class="num-style">105,000.00</em>元 </p> 
+       </div> 
+       <div class="product-status product-status-preview"> 
+        <a href="/list/productDetail?productId=30062060" target="_blank" class="ld-btn ld-btn-assist">已售罄</a> 
+       </div> </li> 
+     </ul> 
+     <div class="pagination ui_complex_pagination"> 
+      <div class="paging-container"> 
+      </div> 
+      <input type="hidden" id="currentPage" value="1"> 
+      <input type="hidden" id="pageCount" value="1"> 
+     </div> 
+    </div> 
+    <div class="right-box"> 
+     <div class="product-introduce"> 
+      <dl> 
+       <dt>
+        项目介绍
+       </dt> 
+       <dd class="first"> 
+        <div> 
+         <p class="p-name">稳盈-安e</p> 
+         <p class="p-des">明星项目 本息担保</p> 
+        </div> 
+        <a target="_blank" href="http://www.lu.com/about/introduction.html" class="k-more"></a> 
+       </dd> 
+       <dd> 
+        <div> 
+         <p class="p-name">稳盈-安e+</p> 
+         <p class="p-des">本息保障 每月收款</p> 
+        </div> 
+        <a target="_blank" href="http://www.lu.com/about/cgi.html" class="k-more"></a> 
+       </dd> 
+       <dd> 
+        <div> 
+         <p class="p-name">稳盈-变现通</p> 
+         <p class="p-des">期限更短 收益更高</p> 
+        </div> 
+        <a target="_blank" href="http://www.lu.com/about/bianxiantong.html" class="k-more"></a> 
+       </dd> 
+       <dd> 
+        <div> 
+         <p class="p-name">点金计划</p> 
+         <p class="p-des">一键组合投资 本息担保</p> 
+        </div> 
+        <a target="_blank" href="https://list.lu.com/list/dianjin-area" class="k-more"></a> 
+       </dd> 
+       <dd> 
+        <div> 
+         <p class="p-name">大数金融</p> 
+         <p class="p-des">短期个人投融资项目</p> 
+        </div> 
+        <a target="_blank" href="http://www.lu.com/about/shuloue.html" class="k-more"></a> 
+       </dd> 
+      </dl> 
+      <div class="intro-operate" data-sk="p2p-introduction-more"> 
+       <i class="arrow-icon"></i> 
+      </div> 
+     </div> 
+     <div class="list-faq"> 
+      <!-- wcm content path: area/bigList/p2p/p2p-issues.vm --> 
+      <div class="head"> 
+       <span class="title">常见问题</span> 
+       <a href="http://www.lufax.com/help/" class="more-link" target="_blank" data-sk="">更多 &gt;</a> 
+      </div> 
+      <ul class="list"> 
+       <li class="list-item"> <a href="http://www.lufax.com/help/help_operate_wechat.html" title="关注陆金所微服务，投资券拿不停" target="_blank" data-sk="">关注陆金所微服务，投资券拿不停</a> </li> 
+       <li class="list-item"> <a href="https://www.lu.com/help/help_operate_register2.html" title="银行卡认证的操作演示步骤" target="_blank" data-sk="">银行卡认证的操作演示步骤</a> </li> 
+       <li class="list-item"> <a href="https://www.lu.com/help/help_issue_recommend_answer_01.html" title="什么是好友推荐的活动规则" target="_blank" data-sk="">什么是好友推荐的活动规则</a> </li> 
+       <li class="list-item"> <a href="https://www.lu.com/help/help_operate_register.html" title="注册及认证的操作演示步骤" target="_blank" data-sk="">注册及认证的操作演示步骤</a> </li> 
+      </ul> 
+     </div> 
+     <!-- wcm content path: area/bigList/p2p/p2p-ad.vm --> 
+     <div class="ad-img"> 
+      <a href="https://list.lu.com/insurance/product/29337578/detail" target="_blank"> <img src="https://static.lufaxcdn.com/wcm-images/E46jn9x45pxnb0IRdpJcKQ.jpg" alt="" style="width: 100%;"> </a> 
+     </div> 
+     <div class="ad-img"> 
+      <a href="https://list.lu.com/list/dingqi?minMoney=&amp;maxMoney=&amp;minDays=&amp;maxDays=&amp;minRate=&amp;maxRate=&amp;mode=&amp;tradingMode=&amp;isCx=&amp;currentPage=1&amp;orderCondition=&amp;isShared=&amp;canRealized=&amp;productCategoryEnum=HUIFU" target="_blank"> <img src="https://static.lufaxcdn.com/wcm-images/IgriCYVmD3-cXTy3EnWLIg.jpg" alt="" style="width: 100%;"> </a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <textarea class="hidden" id="aggregation-content">
+    {if model.data.length &gt; 0}
+    &lt;table class="aggregation-list"&gt;
+        {if model.categoryId == "501"}
+        &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;td&gt;项目名称&lt;/td&gt;
+                &lt;td&gt;预期年化利率&lt;/td&gt;
+                &lt;td&gt;项目期限&lt;/td&gt;
+                &lt;td&gt;项目进度&lt;/td&gt;
+                &lt;td class="aggregation-price"&gt;投资金额&lt;/td&gt;
+                &lt;td&gt;操作&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+        {else}
+        &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;td&gt;项目名称&lt;/td&gt;
+                &lt;td class="aggregation-remaining"&gt;剩余可投资金额&lt;/td&gt;
+                &lt;td&gt;项目进度&lt;/td&gt;
+                &lt;td&gt;操作&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+        {/if}
+        &lt;tbody&gt;
+        {for product in model.data}
+        &lt;tr class="clearfix"&gt;
+            {if model.categoryId == "501"}
+            &lt;td class="aggregation-name"&gt;
+                &lt;p class="title"&gt;&lt;a href="/list/productDetail?productId=${product.productId}" title="${product.title}" target="_blank"&gt;${product.title}&lt;/a&gt;&lt;/p&gt;
+                &lt;p class="bank"&gt;承兑机构：${product.acceptanceBank}&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td class="aggregation-rate"&gt;${product.interestRate}&lt;/td&gt;
+            &lt;td&gt;${product.extInvestPeriodDisplay}&lt;/td&gt;
+            &lt;td class="aggregation-progress"&gt;
+                {if product.productStatus == "PREVIEW"}
+                    &lt;span&gt;发布时间 &lt;/span&gt;&lt;em&gt;${product.publishAtCompleteTime}&lt;/em&gt;
+                {else}
+                    &lt;div class="progress-wrap clearfix"&gt;
+                        &lt;div class="progress"&gt;
+                            &lt;div class="bar" style="width: ${product.progress}"&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;span class="progress-txt"&gt;${product.progressDisplay}&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;/td&gt;
+                {/if}
+            &lt;/td&gt;
+            &lt;td class="aggregation-price"&gt;&lt;span&gt;${product.price}&lt;/span&gt;元
+                {if product.tradingMode=="07"}起{/if}
+            &lt;/td&gt;
+            {else}
+            &lt;td class="aggregation-name"&gt;
+                &lt;a href="/list/productDetail?productId=${product.productId}" title="${product.title}" target="_blank"&gt;${product.title}&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td class="aggregation-remaining"&gt;${product.remainingAmount}元&lt;/td&gt;
+            &lt;td class="aggregation-progress"&gt;
+                {if product.productStatus == "PREVIEW"}
+                    &lt;span&gt;发布时间 &lt;/span&gt;&lt;em&gt;${product.publishAtCompleteTime}&lt;/em&gt;
+                {else}
+                    &lt;div class="progress-wrap clearfix"&gt;
+                        &lt;div class="progress"&gt;
+                            &lt;div class="bar" style="width: ${product.progress}"&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;span class="progress-txt"&gt;${product.progressDisplay}&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/td&gt;
+                {/if}
+            &lt;/td&gt;
+            {/if}
+            &lt;td class="aggregation-operate"&gt;
+                {if product.productStatus == "PREVIEW"}
+                    &lt;a href="/list/productDetail?productId=${product.productId}" target="_blank"&gt;即将发布&lt;/a&gt;
+                {else}
+                    &lt;a href="/list/productDetail?productId=${product.productId}" target="_blank"&gt;查看详情&lt;/a&gt;
+                    {if product.hasInvested}
+                    &lt;span class="icon-check sprite-list"&gt;&lt;/span&gt; 已投资
+                    {/if}
+                {/if}
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        {/for}
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    {else}
+        暂无符合条件的项目
+    {/if}
+    &lt;p id="aggregationPagination${model.id}" class="aggregation-pagination" data-current-page = "${model.currentPage}"&gt; &lt;span class="pagination-indicator is-forward {if model.currentPage != 1} is-active{/if}"&gt;&lt;&lt;/span&gt; ${model.currentPage}/${model.totalPage} &lt;span class="pagination-indicator is-next {if model.currentPage != model.totalPage} is-active{/if}"&gt;&gt;&lt;/span&gt; &lt;/p&gt;
+</textarea> 
+  <div class="lufax-footer" id="lufax-footer"> 
+   <div class="foot-body clearfix"> 
+    <div id="footer-about" class="foot-info about-lufax"> 
+     <h4 class="title"><a id="footer-about-title" href="//www.lu.com/about/aboutus.html" target="_blank">关于陆金所</a></h4> 
+     <p class="item"><a id="footer-about-index" href="//www.lu.com/about/aboutus.html" target="_blank">陆金所介绍</a></p> 
+     <p class="item"><a id="footer-about-managers" href="//www.lu.com/about/managementTeam.html" target="_blank">管理层团队</a></p> 
+     <p class="item"><a id="footer-about-announce" href="//www.lu.com/about/announcement.html" target="_blank">公告和新闻</a></p> 
+     <p class="item"><a id="footer-about-promo" href="//promo.lu.com/activity-pages/job-20150213/index.html" target="_blank">技术中心招聘</a></p> 
+    </div> 
+    <div id="footer-help" class="foot-info help-center"> 
+     <h4 class="title"><a href="//www.lu.com/help/" target="_blank">帮助中心</a></h4> 
+     <p class="item"><a href="//www.lu.com/help/help_operate_register.html" target="_blank">注册及认证</a></p> 
+     <p class="item"><a href="//www.lu.com/help/help_operate_invest.html" target="_blank">投资操作</a></p> 
+     <p class="item"><a href="//www.lu.com/help/help_operate_application.html" target="_blank">转让操作</a></p> 
+     <p class="item"><a href="//www.lu.com/faq/FAQ.html" target="_blank">新手必读</a></p> 
+    </div> 
+    <div id="footer-safe" class="foot-info safe-lufax"> 
+     <h4 class="title"><a id="footer-safe-index" href="//www.lu.com/safe/" target="_blank">安全保障</a></h4> 
+     <p class="item"><a id="footer-safe-invest" href="//www.lu.com/safe/invest.html" target="_blank">投资安全</a></p> 
+     <p class="item"><a id="footer-safe-fund" href="//www.lu.com/safe/fund.html" target="_blank">资金安全</a></p> 
+     <p class="item"><a id="footer-safe-data" href="//www.lu.com/safe/data.html" target="_blank">数据及信息</a></p> 
+     <p class="item"><a id="footer-safe-privacy" href="//www.lu.com/safe/privacy.html" target="_blank">隐私保密</a></p> 
+    </div> 
+    <div id="footer-app-download" class="foot-info app-download border-left app-download-lu"> 
+     <div class="webchat wl"> 
+      <i id="footer-mobile-app" class="item">&nbsp;</i> 
+      <h4 class="title">手机客户端下载</h4> 
+     </div> 
+     <div class="webchat wr"> 
+      <i id="footer-webchat-service" class="item"> <img src="https://static.lufaxcdn.com/wcm-images/cKqpa10ehLaSVIMSlguVgA.jpg" alt=""> </i> 
+      <h4 class="title">24小时在线微服务</h4> 
+     </div> 
+     <div class="webchat"> 
+      <i id="footer-micro-shop" class="item">&nbsp;</i> 
+      <h4 class="title">陆金所微店</h4> 
+     </div> 
+    </div> 
+    <div id="footer-cooperate" class="foot-info cooperate border-left"> 
+     <p class="service-phone-title"> 客服电话&nbsp; 人工服务时间 8:00～22:00 </p> 
+     <p id="footer-service-phone-num" class="service-phone-num">400-866-6618</p> 
+     <p class="service-message"> <a href="//common.lu.com/common/cs/chat" target="_blank" class="online-service" data-sk="onlineCustmer_homePage">24小时在线客服</a> </p> 
+     <p id="uic-uecenter" class="item uic-uecenter"><a href="//contact.lu.com/uic/uecenter/index" target="_blank">参与用户体验</a></p> 
+    </div> 
+   </div> 
+   <div class="foot-body clearfix copyright-foot"> 
+    <div class="copyright-info clearfix"> 
+     <p id="footer-copyright" class="copyright"> 版权所有 ? 上海陆家嘴国际金融资产交易市场股份有限公司 沪 ICP 证 B2-20120023号 &nbsp;&nbsp;沪 ICP 备 12032241 号-7 &nbsp;&nbsp; <br> Copyright Shanghai Lujiazui International Financial Asset Exchange Co.,Ltd. ALL Rights Reserved<br> </p> 
+     <!--可信网站--> 
+     <div class="site-certificate-wrap"> 
+      <a id="footer-trust-site-icon" class="trust-site trust-site-lu" href="https://ss.knet.cn/verifyseal.dll?sn=e14021031011546046fdpn000000&amp;ct=df&amp;a=1&amp;pa=0.309682316146791" target="_blank">&nbsp;</a> 
+      <a id="footer-icp-icon" class="IC-network-supervisor-lu" href="https://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=dov73ne26zbqq0ildti0q39gru6x2zu3va" target="_blank">&nbsp;</a> 
+      <a class="network-report-lu" href="http://www.shjbzx.cn " target="_blank">&nbsp;</a> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="foot-pingan"> 
+    <ul class="pingan-list"> 
+     <li class="icon-pingan-logo"></li> 
+     <li><a href="http://www.pingan.com" target="_blank">中国平安官网</a> ｜</li> 
+     <li><a href="http://one.pingan.com" target="_blank">平安一账通</a> ｜</li> 
+     <li><a href="http://www.lfex.com" target="_blank">陆金所Lfex</a> ｜</li> 
+     <li><a href="http://chaoshi.pingan.com/?wt.mc_id=lfex" target="_blank">平安金融旗舰店</a></li> 
+    </ul> 
+   </div> 
+  </div> 
+  <script type="text/javascript">
+    var Global = {};
+    Global.basePath = "/list/";
+    Global.rarvAppPath="http://rsrv.lufax.app/rsrv-app/";
+</script> 
+  <script type="text/javascript" src="//static.lufaxcdn.com/lufax-public/jquery/jquery.7ebf933b.js"></script> 
+  <script type="text/javascript" src="//static.lufaxcdn.com/lufax-public/jserror/jserror.58741114.js"></script> 
+  <script type="text/javascript" src="//static.lufaxcdn.com/lufax-components/lufax-components.5043b040.js"></script> 
+  <script type="text/javascript" src="//static.lufaxcdn.com/lufax-public/lufax-lib/lufax-lib.fadc9d1b.js"></script> 
+  <script type="text/javascript" src="//static.lufaxcdn.com/lufax-public/lufax-public/lufax-public.9962cf27.js"></script> 
+  <script type="text/javascript" src="https://static.lufaxcdn.com/list/resource/require/require_config.a3faabbf.js"></script> 
+  <script type="text/javascript" src="https://static.lufaxcdn.com/list/resource/listing/main/newBigList/all.68b2abaf.js"></script> 
+  <script type="text/javascript" src="//static.lufaxcdn.com/lufax-public/statistic/statistic.1ac2c47c.js"></script> 
+  <div style="display: none"> 
+   <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1005340584;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script> 
+   <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script> 
+   <noscript> 
+    <div style="display:inline;"> 
+     <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1005340584/?value=0&amp;guid=ON&amp;script=0"> 
+    </div> 
+   </noscript> 
+  </div> 
+  <!-- put int <head> tag--> 
+  <script language="javascript" type="text/javascript">
+    function loadWTScript(a, b) {
+        var c = document.createElement("script");
+        c.type = "text/javascript",
+                c.async = !0,
+                c.src = a,
+                dcsReady(c, b),
+                document.getElementsByTagName("head")[0].appendChild(c)
+    }
+    function dcsReady(a, b) {
+        a.readyState ? a.onreadystatechange = function() { ("loaded" == a.readyState || "complete" == a.readyState) && (a.onreadystatechange = null, b())
+        }: a.onload = function() {
+            b()
+        }
+    }
+    loadWTScript(window.location.protocol.indexOf('https:')==0?'https://pa-ssl.pingan.com/app_js/sdc/prd/sdc9.js':'http://www.pingan.com/app_js/sdc/prd/sdc9.js', function(){
+        if (typeof(_tag) != "undefined"){
+            _tag.dcsid="dcsxqgp7nakqoagskruioagxc_1k3h"; //dcsid参数用于设置日志记录在哪个文件里
+            _tag.DCSext.platform="lu";  //按需要修改成不同的平台名称，例如toa
+            var s=_tag.dcsGetIdAsync();
+            if(s)
+                dcsReady(s,function(){_tag.dcsCollect()});
+            else
+                _tag.dcsCollect();
+        }
+    })
+</script>   
+ </body>
+</html>
